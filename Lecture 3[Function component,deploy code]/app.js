@@ -12,6 +12,12 @@ import ReactDOM from "react-dom/client"
 //     babel:                   React                      Render
 // JSX => React.createElement() => react element(JSObject) => HTML Element
 
+
+
+
+
+
+
 // JSX: JS ke expression
 const names = "Rohit";
 const obj = {
@@ -29,7 +35,7 @@ const obj2 = {
 const newElement = (
     <>
          <h1 id="first" className="second" >Hello Coder Army {names}</h1>
-         <h2 style={{backgroundColor:"black",color:"white"}}>Maja aaya muje {obj.age}</h2>
+         <h2 style={{backgroundColor:"black",color:"white"}}>Maja aaya muje {obj.age}</h2> {/* or use <h2 style = {{obj2}} */}
     </>
 )
 
