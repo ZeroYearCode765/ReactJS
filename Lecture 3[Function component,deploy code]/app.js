@@ -55,7 +55,12 @@ const meet = ()=>{
 const newElement2 = greet();
 const newElement3 = meet();
 
-const newElement4 = <>{greet()} {meet()}</>
+const newElement4 = (
+    <>
+        {greet()} 
+        {meet()}
+    </>
+)
 
 const Reactroot = ReactDOM.createRoot(document.getElementById('root'));
 
