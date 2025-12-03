@@ -1,0 +1,18 @@
+{
+  "name": "projectbasedonhooks",
+  "version": "1.0.0",
+  "description": "Making a Project in which we use useState Hook",
+  "license": "ISC",
+  "author": "Aadil",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  }
+}
